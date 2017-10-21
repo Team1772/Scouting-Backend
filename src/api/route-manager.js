@@ -1,4 +1,4 @@
-const express      = require('express');
+const express = require('express');
 const teste = require('./routes/teste.js');
 
 module.exports = function (app) {

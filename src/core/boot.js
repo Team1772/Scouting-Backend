@@ -4,6 +4,8 @@ const routeManager  = require('./../api/route-manager.js');
 
 module.exports = function() {
 
+  require('./database.js')()
+
   const app = express();
 
   app.use(bodyParser.urlencoded({extended : true}));
